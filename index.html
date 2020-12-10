@@ -4,55 +4,73 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SJ`s Portfolio</title>
-
+    
     <meta name="description" content="Portfolio for very promising young developer SJ">
     <meta name="author" content="SJ">
     <link rel="icon" type="image/png" href="imgs/favicon.png"/>
-
+    
     
     <script src="https://kit.fontawesome.com/a00753d868.js" 
     crossorigin="anonymous">
-    </script>
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
-    <!-- font-family: 'Open Sans', sans-serif; -->
-    <link rel="stylesheet" href="style.css">
-    <script src="main.js" defer></script>
-    
-    <style>
-        #nav__logo{
-            width: 12px;
-            height: 12px;
-            
-        }
-    </style>
+</script>
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+<!-- font-family: 'Open Sans', sans-serif; -->
+<link rel="stylesheet" href="style.css">
+<script src="main.js" defer></script>
+
+<style>
+    #nav__logo{
+        width: 12px;
+        height: 12px;
+        
+    }
+    .home__avatar{
+        width: 400px;
+        height: 350px;
+    }
+</style>
 
 </head>
 <body>
     <!-- navbar -->
     <nav id="navbar">
-        <div class="navbar__logoo">
+        <div class="navbar__logo">
             <img src="imgs/favicon_small.png" id="nav__logo"alt="">
             <a href="">SJ</a>
         </div> 
-        <div class="navbar__menu">
-            <ul class="navbar__menu">
-                <li class="navbar__menu_item">Home</li>
-                <li class="navbar__menu_item">About</li>
-                <li class="navbar__menu_item">Skills</li>
-                <li class="navbar__menu_item">My work</li>
-                <li class="navbar__menu_item">Contact</li>
-                
-            </ul>
-        </div>
+        <ul class="navbar__menu">
+            <li class="navbar__menu_item">Home</li>
+            <li class="navbar__menu_item">About</li>
+            <li class="navbar__menu_item">Skills</li>
+            <li class="navbar__menu_item">My work</li>
+            <li class="navbar__menu_item">Contact</li>            
+        </ul>
     </nav>
+
+    <!-- Home -->
+    <section id="home">
+        <img 
+        src="imgs/SJ_Main.png"" 
+        alt="SJ Profile Photo" 
+        class="home__avatar"
+        />
+        <h1 id="home__title">Hello,<br/> I`m Dream Corder</h1>
+        <h2 id="home__description">A Promising Developer and Dream Corder</h2>
+        <button id="home__contact">Contact Me</button>
+    </section>
+
     <!-- about -->
     <section id="about"></section>
+
     <!-- skills -->
     <section id="skills"></section>
+
     <!-- work -->
     <section id="work"></section>
+
     <!-- contact -->
     <section id="contact"></section>
+
 </body> 
 </html>
