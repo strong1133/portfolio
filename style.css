@@ -98,6 +98,7 @@ p {
   align-items: center;
   color: var(--color-white);
   padding: 5px;
+  z-index: 1;
 }
 #navbar.navbar--dark {
   background-color: var(--color-purple);
@@ -168,6 +169,7 @@ p {
   text-align: center;
   padding: 50px;
   margin: auto;
+  margin-top: 2px;
 }
 .section__container {
   max-width: 1200px;
